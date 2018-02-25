@@ -1,0 +1,59 @@
+#main {
+  background: linear-gradient(#005dba, #0080ff);
+}
+
+#webpageNavbar {
+  padding-top: 50px;
+}
+
+#navbarButton {
+  float: right;
+}
+
+.navbarLink, #webpageTitle, .jumbotronTitle {
+  font-family: 'Fira Sans', sans-serif;
+  color: white;
+  font-weight: 500;
+  text-align: center;
+}
+
+.jumbotronDescription, #footer {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  text-align: center;
+  color: white;
+}
+
+.navbarLink {
+  font-size: 24px;
+}
+
+#navbarLinks {
+  margin-top: 25px;
+  background-color: #0080ff;
+}
+
+#webpageTitle {
+  font-size: 48px;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.jumbotronTitle {
+  font-size: 36px;
+  text-align: center;
+}
+
+.pros {
+  background: linear-gradient(to bottom right, #4b7d00, #6ab000);
+}
+
+.cons {
+  background: linear-gradient(to bottom right, #cf6400, #e77800);
+}
+
+#footer {
+  padding-bottom: 50px;
+}

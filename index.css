@@ -1,0 +1,72 @@
+.webpageHeader {
+  background-color: #005dba;
+}
+
+#webpageNavbar {
+  padding-top: 50px;
+  padding-bottom: 25px;
+}
+
+#navbarButton {
+  float: right;
+}
+
+.navbarLink {
+  font-size: 24px;
+  color: white;
+}
+
+#navbarLinks {
+  background-color: #0080ff;
+}
+
+.navbarLink, #webpageTitle, #cta, .jumbotronTitle {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 500;
+  text-align: center;
+}
+
+#webpageTitle, #websiteDescription {
+  color: white;
+}
+
+#websiteDescription, #footer {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 300;
+  text-align: center;
+  font-size: 18px;
+}
+
+#websiteDescription, #cta, #footer {
+  padding-bottom: 50px;
+}
+
+#webpageTitle, #cta {
+  font-size: 48px;
+  padding-top: 50px;
+}
+
+#learnmoreLink, #learnmoreLink:hover {
+  color: #87b5ff;
+}
+
+#cta, #footer {
+  color: black;
+}
+
+.jumbotronTitle {
+  font-size: 36px;
+  color: white;
+}
+
+.jumbotronLink:hover, #learnmoreLink:hover {
+  text-decoration: none;
+}
+
+#businessButton {
+  background-color: #0080ff;
+}
+
+#personallifeButton {
+  background-color: #ff6e00;
+}
