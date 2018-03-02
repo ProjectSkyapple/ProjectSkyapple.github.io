@@ -30,14 +30,14 @@
   color: white;
 }
 
-#websiteDescription, #footer {
+#websiteDescription, .footer {
   font-family: 'Fira Sans', sans-serif;
   font-weight: 300;
   text-align: center;
   font-size: 18px;
 }
 
-#websiteDescription, #cta, #footer {
+#websiteDescription, #cta, .footer {
   padding-bottom: 50px;
 }
 
@@ -50,7 +50,7 @@
   color: #87b5ff;
 }
 
-#cta, #footer {
+#cta, .footer {
   color: black;
 }
 
