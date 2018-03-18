@@ -1,0 +1,34 @@
+#main {
+  background-color: #eee;
+}
+
+#productLogo, #copyrightMark {
+  padding-top: 50px;
+}
+
+#content {
+  height: 100vh;
+}
+
+#notice, #noticeDescription, #copyrightMark {
+  font-family: 'Fira Sans', sans-serif;
+}
+
+#notice {
+  font-weight: 700;
+  font-size: 72px;
+  padding-top: 25px;
+}
+
+#noticeDescription {
+  font-weight: 300;
+  font-size: 30px;
+  padding-top: 25px;
+}
+
+#copyrightMark {
+  font-weight: 300;
+  font-size: 24px;
+  text-align: center;
+  padding-bottom: 50px;
+}
