@@ -1,0 +1,72 @@
+#coverSection {
+  background: linear-gradient(to bottom right, #000080, #00BFFF);
+}
+
+#navigationButton {
+  border: 1px solid white;
+  float: right;
+}
+
+#navigationBar {
+  padding-top: 50px;
+}
+
+#coverTitle {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 72px;
+  font-weight: 700;
+  color: white;
+}
+
+#coverDescription {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  color: white;
+}
+
+#coverSummary {
+  max-width: 768px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#ctaTitle {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 72px;
+  font-weight: 700;
+  color: black;
+  padding-bottom: 25px;
+  max-width: 768px;
+}
+
+.ctaButton {
+  margin: 12.5px;
+}
+
+#ctaButtons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#ctaContent {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#cta {
+  background-color: #eee;
+}
+
+#copyrightMark {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 300;
+  color: black;
+  text-align: center;
+}
+
+#copyright {
+  background-color: #eee;
+  padding: 50px;
+}
