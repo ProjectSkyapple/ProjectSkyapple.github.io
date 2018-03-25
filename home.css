@@ -36,7 +36,6 @@
   font-size: 72px;
   font-weight: 700;
   color: black;
-  padding-bottom: 25px;
   max-width: 768px;
 }
 
@@ -55,18 +54,18 @@
   padding-bottom: 50px;
 }
 
-#cta {
-  background-color: #eee;
+#ctaSection {
+  background-color: #EEEEEE;
 }
 
 #copyrightMark {
   font-family: 'Fira Sans', sans-serif;
+  font-size: 12px;
   font-weight: 300;
   color: black;
   text-align: center;
 }
 
-#copyright {
-  background-color: #eee;
-  padding: 50px;
-}
+#copyrightSection {
+  background-color: #EEEEEE;
+  padding: 50p
