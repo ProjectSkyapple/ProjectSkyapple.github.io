@@ -13,6 +13,11 @@
   border-bottom: 3px solid white;
 }
 
+.navigationLinks {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
 #navigationButton {
   border: 1px solid white;
   float: right;
