@@ -18,7 +18,13 @@
   padding-bottom: 25px;
 }
 
+.navbar-toggler {
+  ...
+}
+
 #navigationButton {
+  padding: 0px;
+  border: 0px;
   float: right;
 }
 
