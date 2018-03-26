@@ -7,12 +7,23 @@
     <link rel="stylesheet" type="text/css" href="home.css"/>
     <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,700" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </head>
   <body>
     <div id="coverSection">
       <div id="navigationBar" class="container">
         <a href="index.html"><img src="productLogo-white.png" alt="Project Skyapple" height="45"/></a>
-        <button id="navigationButton" class="navbar-toggler" data-toggle="collapse" data-target="#navigationLinks"><img src="navigationButton-white.png" alt="Navigation" height="45"/></button>
+        <a id="navigationButton" class="navbar-toggler" data-toggle="collapse" data-target="#navigationLinks"><img src="navigationButton-white.png" alt="Navigation" height="45"/></a>
+      </div>
+      <div id="navigationLinks" class="collapse navbar-collapse">
+        <div class="navbar-nav">
+          <span class="menuButton container"><a class="navigationLink nav-item nav-link" href="education.html">Cloud Computing for Education</a></span>
+          <span class="menuButton container"><a class="navigationLink nav-item nav-link" href="business.html">Cloud Computing for Business</a></span>
+          <span class="menuButton container"><a class="navigationLink nav-item nav-link" href="personal.html">Cloud Computing for Personal Life</a></span>
+          <span class="container"><a class="navigationLink nav-item nav-link" href="references.html">References and Documentation</a></span>
+        </div>
       </div>
       <div class="container">
         <div id="coverSummary">
@@ -21,18 +32,18 @@
         </div>
       </div>
     </div>
-    <div id="cta">
-      <div class="container" id="ctaContent">
+    <div id="ctaSection">
+      <div id="ctaContent" class="container">
         <h1 id="ctaTitle">Open the door to cloud computing</h1>
         <div id="ctaButtons">
-          <a href="education.html" class="ctaButton"><img src="educationButton.png" alt="For Education" height="300"></a>
-          <a href="business.html" class="ctaButton"><img src="businessButton.png" alt="For Business" height="300"></a>
-          <a href="personal.html" class="ctaButton"><img src="personalButton.png" alt="For Personal Life" height="300"></a>
+          <a class="ctaButton" href="education.html"><img src="educationButton.png" alt="For Education" height="300"/></a>
+          <a class="ctaButton" href="business.html"><img src="businessButton.png" alt="For Business" height="300"/></a>
+          <a class="ctaButton" href="personal.html"><img src="personalButton.png" alt="For Personal Life" height="300"/></a>
         </div>
       </div>
     </div>
-    <div id="copyright">
-      <h6 class="container" id="copyrightMark">2018 Rising Scholars Academy TSA</h6>
+    <div id="copyrightSection">
+      <h6 id="copyrightMark" class="container">2018 Rising Scholars Academy TSA</h6>
     </div>
   </body>
 </html>
