@@ -2,6 +2,17 @@
   background: linear-gradient(to bottom right, #000080, #00BFFF);
 }
 
+.navigationLink {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+}
+
+.menuButton {
+  border-bottom: 3px solid white;
+}
+
 #navigationButton {
   border: 1px solid white;
   float: right;
