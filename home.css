@@ -182,7 +182,7 @@
 
   .navigationLink {
     font-family: 'Fira Sans', sans-serif;
-    font-size: 24px;
+    font-size: 15px;
     font-weight: 700;
     color: white;
   }
@@ -193,7 +193,7 @@
 
   #buttonImage {
     width: auto;
-    height: 25px;
+    height: 23px;
     padding: 0px;
     border: 0px;
     float: right;
@@ -201,11 +201,11 @@
 
   #productLogo {
     width: auto;
-    height: 25px;
+    height: 23px;
   }
 
   #navigationBar {
-    padding-top: 15px;
+    padding-top: 25px;
     padding-bottom: 5px;
   }
 
