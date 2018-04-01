@@ -7,7 +7,7 @@
     color: white;
   }
 
-  .navigationLink:hover {
+  .navigationLink:hover, .navigationLink:active {
     color: #CCCCCC;
   }
 
@@ -61,7 +61,7 @@
     margin: 12.5px;
   }
 
-  .ctaButton:hover {
+  .ctaButton:hover, .ctaButton:active {
     filter: brightness(50%);
   }
 
@@ -103,7 +103,7 @@
     color: white;
   }
 
-  .navigationLink:hover {
+  .navigationLink:hover, .navigationLink:active {
     color: #CCCCCC;
   }
 
@@ -163,7 +163,7 @@
     margin: 12.5px;
   }
 
-  .ctaButton:hover {
+  .ctaButton:hover, .ctaButton:active {
     filter: brightness(50%);
   }
 
