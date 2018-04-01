@@ -111,47 +111,22 @@
     border-bottom: 3px solid white;
   }
 
-<<<<<<< HEAD
   #productLogo {
     height: 23px;
-=======
-  .navigationLink {
-    font-family: 'Fira Sans', sans-serif;
-    font-size: 15px;
-    font-weight: 700;
-    color: white;
->>>>>>> c2d6bdbd9a0af69b212a7572acf8c27a7620e47c
   }
 
   #buttonImage {
     height: 23px;
   }
 
-<<<<<<< HEAD
   #navigationButton {
-=======
-  #buttonImage {
-    width: auto;
-    height: 23px;
->>>>>>> c2d6bdbd9a0af69b212a7572acf8c27a7620e47c
     padding: 0px;
     border: 0px;
     float: right;
   }
 
-<<<<<<< HEAD
   #navigationBar {
     padding-top: 25px;
-=======
-  #productLogo {
-    width: auto;
-    height: 23px;
-  }
-
-  #navigationBar {
-    padding-top: 25px;
-    padding-bottom: 5px;
->>>>>>> c2d6bdbd9a0af69b212a7572acf8c27a7620e47c
   }
 
   #coverTitle {
