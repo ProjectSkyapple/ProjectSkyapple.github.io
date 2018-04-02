@@ -32,6 +32,13 @@
     max-width: 768px;
   }
 
+  #referencesList {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    color: black;
+  }
+
   .referencesContent {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -66,5 +73,87 @@
   #copyrightSection {
     background-color: #EEEEEE;
     padding-bottom: 50px;
+  }
+}
+
+@media screen and (min-width: 240px) and (max-width: 479px) {
+  .navigationLink {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: black;
+  }
+
+  .navigationLink:hover {
+    color: #CCCCCC;
+  }
+
+  .menuButton {
+    border-bottom: 3px solid black;
+  }
+
+  .navigationImage {
+    height: 23px;
+  }
+
+  #navigationButton {
+    padding: 0px;
+    border: 0px;
+    float: right;
+  }
+
+  #navigationBar {
+    padding-top: 25px;
+  }
+
+  .sectionTitle {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: black;
+    max-width: 768px;
+  }
+
+  #referencesList {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    color: black;
+  }
+
+  .referencesContent {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+  .webpageSection {
+    background-color: #EEEEEE;
+  }
+
+  .documentationButton {
+    margin: 12.5px;
+  }
+
+  .documentationButton:hover {
+    filter: brightness(50%);
+  }
+
+  #documentationButtons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  #copyrightMark {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    color: black;
+    text-align: center;
+  }
+
+  #copyrightSection {
+    background-color: #EEEEEE;
+    padding-bottom: 25px;
   }
 }
