@@ -1,0 +1,187 @@
+@media screen and (min-width: 480px) {
+  .navigationLink {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: black;
+  }
+
+  .navigationLink:hover {
+    color: #CCCCCC;
+  }
+
+  .menuButton {
+    border-bottom: 3px solid black;
+  }
+
+  #navigationButton {
+    padding: 0px;
+    border: 0px;
+    float: right;
+  }
+
+  #navigationBar {
+    padding-top: 50px;
+  }
+
+  #coverTitle {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 72px;
+    font-weight: 700;
+    color: black;
+  }
+
+  #coverDescription {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    color: white;
+  }
+
+  #coverSummary {
+    max-width: 768px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  #coverSection {
+    background-color: #EEEEEE;
+  }
+
+  #ctaTitle {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 72px;
+    font-weight: 700;
+    color: black;
+    max-width: 768px;
+  }
+
+  .ctaButton {
+    margin: 12.5px;
+  }
+
+  .ctaButton:hover {
+    filter: brightness(50%);
+  }
+
+  #ctaButtons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  #ctaContent {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  #ctaSection {
+    background-color: #EEEEEE;
+  }
+
+  #copyrightMark {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    color: black;
+    text-align: center;
+  }
+
+  #copyrightSection {
+    background-color: #EEEEEE;
+    padding-bottom: 50px;
+  }
+}
+
+@media screen and (min-width: 240px) and (max-width: 479px) {
+  .navigationLink {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+  }
+
+  .menuButton {
+    border-bottom: 3px solid white;
+  }
+
+  #productLogo {
+    height: 23px;
+  }
+
+  #buttonImage {
+    height: 23px;
+  }
+
+  #navigationButton {
+    padding: 0px;
+    border: 0px;
+    float: right;
+  }
+
+  #navigationBar {
+    padding-top: 25px;
+  }
+
+  #coverTitle {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: white;
+  }
+
+  #coverDescription {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    color: white;
+  }
+
+  #coverSummary {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+  #coverSection {
+    background: linear-gradient(to bottom right, #000080, #00BFFF);
+  }
+
+  #ctaTitle {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: black;
+  }
+
+  .ctaButton {
+    margin: 12.5px;
+  }
+
+  #ctaButtons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  #ctaContent {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+  #ctaSection {
+    background-color: #EEEEEE;
+  }
+
+  #copyrightMark {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    color: black;
+    text-align: center;
+  }
+
+  #copyrightSection {
+    background-color: #EEEEEE;
+    padding-bottom: 25px;
+  }
+}
