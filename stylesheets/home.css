@@ -1,5 +1,4 @@
-/*CSS rules only for laptop+ screens*/
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 480px) {
   .navigationLink {
     font-family: 'Fira Sans', sans-serif;
     font-size: 30px;
@@ -7,7 +6,7 @@
     color: white;
   }
 
-  .navigationLink:hover, .navigationLink:active {
+  .navigationLink:hover {
     color: #CCCCCC;
   }
 
@@ -61,7 +60,7 @@
     margin: 12.5px;
   }
 
-  .ctaButton:hover, .ctaButton:active {
+  .ctaButton:hover {
     filter: brightness(50%);
   }
 
@@ -94,17 +93,12 @@
   }
 }
 
-/*CSS rules only for phone screens*/
-@media screen and (min-width: 320px) and (max-width: 479px) {
+@media screen and (min-width: 240px) and (max-width: 479px) {
   .navigationLink {
     font-family: 'Fira Sans', sans-serif;
     font-size: 30px;
     font-weight: 700;
     color: white;
-  }
-
-  .navigationLink:hover, .navigationLink:active {
-    color: #CCCCCC;
   }
 
   .menuButton {
@@ -161,10 +155,6 @@
 
   .ctaButton {
     margin: 12.5px;
-  }
-
-  .ctaButton:hover, .ctaButton:active {
-    filter: brightness(50%);
   }
 
   #ctaButtons {
