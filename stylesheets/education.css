@@ -1,0 +1,217 @@
+@media screen and (min-width: 480px) {
+  .navigationLink, .subtitleText {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+  }
+
+  .navigationLink:hover, .subtitleText:hover {
+    text-decoration: none;
+    color: #CCCCCC;
+  }
+
+  .menuButton {
+    border-bottom: 3px solid white;
+  }
+
+  #navigationButton {
+    padding: 0px;
+    border: 0px;
+    float: right;
+  }
+
+  #navigationBar {
+    padding-top: 50px;
+  }
+
+  .sectionTitle-white {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 72px;
+    font-weight: 700;
+    color: white;
+  }
+
+  .sectionDescription-white {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    color: white;
+  }
+
+  #coverSummary {
+    max-width: 768px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  #coverSection {
+    background-image: url("../assets/coverBackground-education.png");
+    background-size: cover;
+    background-position: bottom;
+  }
+
+  .shifterButton {
+    width: 50vw;
+    padding-top: 12.5px;
+    padding-bottom: 12.5px;
+  }
+
+  #shifterSection {
+    background-color: #6CA700;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+  }
+
+  .sectionTitle-black {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 72px;
+    font-weight: 700;
+    color: black;
+  }
+
+  .problemSubsection {
+    background-color: black;
+  }
+
+  .sectionDescription-black {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    color: black;
+  }
+
+  .solutionOption {
+    margin: 12.5px;
+  }
+
+  .solutionOptions {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .conceptsSubsection {
+    background-color: #DDDDDD;
+  }
+
+  .solutionsSubsection {
+    background-color: #005DBA;
+  }
+
+  .sectionContent {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .mainSection {
+    background-color: #EEEEEE;
+  }
+
+  .copyrightMark {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    color: black;
+    text-align: center;
+  }
+
+  #copyrightSection {
+    background-color: #EEEEEE;
+    padding-bottom: 50px;
+  }
+}
+
+@media screen and (min-width: 240px) and (max-width: 479px) {
+  .navigationLink {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+  }
+
+  .menuButton {
+    border-bottom: 3px solid white;
+  }
+
+  #productLogo {
+    height: 23px;
+  }
+
+  #buttonImage {
+    height: 23px;
+  }
+
+  #navigationButton {
+    padding: 0px;
+    border: 0px;
+    float: right;
+  }
+
+  #navigationBar {
+    padding-top: 25px;
+  }
+
+  #coverTitle {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: white;
+  }
+
+  #coverDescription {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    color: white;
+  }
+
+  #coverSummary {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+  #coverSection {
+    background: linear-gradient(to bottom right, #000080, #00BFFF);
+  }
+
+  #ctaTitle {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: black;
+  }
+
+  .ctaButton {
+    margin: 12.5px;
+  }
+
+  #ctaButtons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  #ctaContent {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+  #ctaSection {
+    background-color: #EEEEEE;
+  }
+
+  .copyrightMark {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    color: black;
+    text-align: center;
+  }
+
+  #copyrightSection {
+    background-color: #EEEEEE;
+    padding-bottom: 25px;
+  }
+}
