@@ -1,5 +1,5 @@
 @media screen and (min-width: 480px) {
-  .navigationLink, .subtitleText {
+  .navigationLink, .subtitleText, .subtitleText-static {
     font-family: 'Fira Sans', sans-serif;
     font-size: 30px;
     font-weight: 700;
@@ -98,6 +98,14 @@
 
   .solutionsSubsection {
     background-color: #005DBA;
+  }
+
+  .prosSubsection {
+    background-color: #6CA700;
+  }
+
+  .consSubsection {
+    background-color: #FF5E00;
   }
 
   .sectionContent {
