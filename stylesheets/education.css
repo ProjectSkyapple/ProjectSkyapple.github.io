@@ -1,12 +1,12 @@
 @media screen and (min-width: 480px) {
-  .navigationLink, .subtitleText, .subtitleText-static {
+  .navigationLink, .subtitleText {
     font-family: 'Fira Sans', sans-serif;
     font-size: 30px;
     font-weight: 700;
     color: white;
   }
 
-  .navigationLink:hover, .subtitleText:hover {
+  .navigationLink:hover {
     text-decoration: none;
     color: #CCCCCC;
   }
@@ -58,7 +58,7 @@
   }
 
   #shifterSection {
-    background-color: #6CA700;
+    background-color: #3CA700;
     position: -webkit-sticky;
     position: sticky;
     top: 0px;
@@ -71,10 +71,6 @@
     color: black;
   }
 
-  .problemSubsection {
-    background-color: black;
-  }
-
   .sectionDescription-black {
     font-family: 'Fira Sans', sans-serif;
     font-size: 30px;
@@ -82,35 +78,33 @@
     color: black;
   }
 
-  .solutionOption {
-    margin: 12.5px;
+  .sectionContent-sub {
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 
-  .solutionOptions {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+  #problemSubsection {
+    background-color: black;
   }
 
-  .conceptsSubsection {
+  #conceptsSubsection {
     background-color: #DDDDDD;
   }
 
-  .solutionsSubsection {
+  #solutionSubsection {
     background-color: #005DBA;
   }
 
-  .prosSubsection {
-    background-color: #6CA700;
+  #prosSubsection {
+    background-color: #3CA700;
   }
 
-  .consSubsection {
-    background-color: #FF5E00;
+  #consSubsection {
+    background-color: #980000;
   }
 
-  .sectionContent {
+  .sectionContent-main {
     padding-top: 50px;
-    padding-bottom: 50px;
   }
 
   .mainSection {
@@ -127,99 +121,7 @@
 
   #copyrightSection {
     background-color: #EEEEEE;
+    padding-top: 50px;
     padding-bottom: 50px;
-  }
-}
-
-@media screen and (min-width: 240px) and (max-width: 479px) {
-  .navigationLink {
-    font-family: 'Fira Sans', sans-serif;
-    font-size: 30px;
-    font-weight: 700;
-    color: white;
-  }
-
-  .menuButton {
-    border-bottom: 3px solid white;
-  }
-
-  #productLogo {
-    height: 23px;
-  }
-
-  #buttonImage {
-    height: 23px;
-  }
-
-  #navigationButton {
-    padding: 0px;
-    border: 0px;
-    float: right;
-  }
-
-  #navigationBar {
-    padding-top: 25px;
-  }
-
-  #coverTitle {
-    font-family: 'Fira Sans', sans-serif;
-    font-size: 36px;
-    font-weight: 700;
-    color: white;
-  }
-
-  #coverDescription {
-    font-family: 'Fira Sans', sans-serif;
-    font-size: 15px;
-    font-weight: 300;
-    color: white;
-  }
-
-  #coverSummary {
-    padding-top: 25px;
-    padding-bottom: 25px;
-  }
-
-  #coverSection {
-    background: linear-gradient(to bottom right, #000080, #00BFFF);
-  }
-
-  #ctaTitle {
-    font-family: 'Fira Sans', sans-serif;
-    font-size: 36px;
-    font-weight: 700;
-    color: black;
-  }
-
-  .ctaButton {
-    margin: 12.5px;
-  }
-
-  #ctaButtons {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-
-  #ctaContent {
-    padding-top: 25px;
-    padding-bottom: 25px;
-  }
-
-  #ctaSection {
-    background-color: #EEEEEE;
-  }
-
-  .copyrightMark {
-    font-family: 'Fira Sans', sans-serif;
-    font-size: 15px;
-    font-weight: 300;
-    color: black;
-    text-align: center;
-  }
-
-  #copyrightSection {
-    background-color: #EEEEEE;
-    padding-bottom: 25px;
   }
 }
