@@ -1,0 +1,285 @@
+@media screen and (min-width: 480px) {
+  .navigationLink, .shifterText, .subtitleText {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+  }
+
+  .navigationLink:hover, .shifterText:hover {
+    text-decoration: none;
+    color: #CCCCCC;
+  }
+
+  .menuButton {
+    border-bottom: 3px solid white;
+  }
+
+  #navigationButton {
+    padding: 0px;
+    border: 0px;
+    float: right;
+  }
+
+  #navigationBar {
+    padding-top: 50px;
+  }
+
+  .sectionTitle-white {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 72px;
+    font-weight: 700;
+    color: white;
+  }
+
+  .sectionDescription-white {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    color: white;
+  }
+
+  #coverSummary {
+    max-width: 768px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  #coverSection {
+    background-image: url("../assets/coverBackground-education.png");
+    background-size: cover;
+    background-position: bottom;
+  }
+
+  .shifterButton {
+    width: 50vw;
+    padding-top: 12.5px;
+    padding-bottom: 12.5px;
+  }
+
+  #shifterSection {
+    background-color: #3CA700;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+  }
+
+  .sectionTitle-black {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 72px;
+    font-weight: 700;
+    color: black;
+  }
+
+  .sectionDescription-black {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    color: black;
+  }
+
+  .sectionContent-sub {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  #problemSubsection {
+    background-color: black;
+  }
+
+  #conceptsSubsection {
+    background-color: #DDDDDD;
+  }
+
+  .solutionOption {
+    margin: 12.5px;
+  }
+
+  #solutionOptions {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  #solutionSubsection {
+    background-color: #005DBA;
+  }
+
+  #prosSubsection {
+    background-color: #3CA700;
+  }
+
+  #consSubsection {
+    background-color: #980000;
+  }
+
+  .sectionContent-main {
+    padding-top: 50px;
+  }
+
+  .mainSection {
+    background-color: #EEEEEE;
+  }
+
+  .copyrightMark {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    color: black;
+    text-align: center;
+  }
+
+  #copyrightSection {
+    background-color: #EEEEEE;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+
+@media screen and (min-width: 240px) and (max-width: 479px) {
+  .navigationLink {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+  }
+
+  .navigationLink:hover, .shifterText:hover {
+    text-decoration: none;
+    color: #CCCCCC;
+  }
+
+  .menuButton {
+    border-bottom: 3px solid white;
+  }
+
+  .navigationImage {
+    height: 23px;
+  }
+
+  #navigationButton {
+    padding: 0px;
+    border: 0px;
+    float: right;
+  }
+
+  #navigationBar {
+    padding-top: 25px;
+  }
+
+  .sectionTitle-white {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: white;
+  }
+
+  .sectionDescription-white {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    color: white;
+  }
+
+  #coverSummary {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+  #coverSection {
+    background-image: url("../assets/coverBackground-education.png");
+    background-size: cover;
+    background-position: bottom;
+  }
+
+  .shifterText, .subtitleText {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+  }
+
+  .shifterButton {
+    width: 50vw;
+    padding-top: 6px;
+    padding-bottom: 6px;
+  }
+
+  #shifterSection {
+    background-color: #3CA700;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+  }
+
+  .sectionTitle-black {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: black;
+  }
+
+  .sectionDescription-black {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    color: black;
+  }
+
+  .sectionContent-sub {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+  #problemSubsection {
+    background-color: black;
+  }
+
+  #conceptsSubsection {
+    background-color: #DDDDDD;
+  }
+
+  .solutionOption {
+    margin: 12.5px;
+  }
+
+  #solutionOptions {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  #solutionSubsection {
+    background-color: #005DBA;
+  }
+
+  #prosSubsection {
+    background-color: #3CA700;
+  }
+
+  #consSubsection {
+    background-color: #980000;
+  }
+
+  .sectionContent-main {
+    padding-top: 25px;
+  }
+
+  .mainSection {
+    background-color: #EEEEEE;
+  }
+
+  .copyrightMark {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    color: black;
+    text-align: center;
+  }
+
+  #copyrightSection {
+    background-color: #EEEEEE;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+}
