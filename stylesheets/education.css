@@ -137,7 +137,7 @@
 }
 
 @media screen and (min-width: 240px) and (max-width: 479px) {
-  .navigationLink, .subtitleText {
+  .navigationLink {
     font-family: 'Fira Sans', sans-serif;
     font-size: 30px;
     font-weight: 700;
@@ -192,7 +192,7 @@
     background-position: bottom;
   }
 
-  .shifterText {
+  .shifterText, .subtitleText {
     font-family: 'Fira Sans', sans-serif;
     font-size: 15px;
     font-weight: 700;
