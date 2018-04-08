@@ -46,9 +46,9 @@
   }
 
   #coverSection {
-    background-image: url("../assets/coverBackground-education.png");
+    background-image: url("../assets/coverBackground-business.png");
     background-size: cover;
-    background-position: bottom;
+    background-position: center;
   }
 
   .shifterButton {
@@ -58,7 +58,7 @@
   }
 
   #shifterSection {
-    background-color: #3CA700;
+    background-color: #005DBA;
     position: -webkit-sticky;
     position: sticky;
     top: 0px;
