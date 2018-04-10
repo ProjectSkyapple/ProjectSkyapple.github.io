@@ -1,4 +1,4 @@
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 595px) {
   .navigationLink {
     font-family: 'Fira Sans', sans-serif;
     font-size: 30px;
@@ -76,7 +76,7 @@
   }
 }
 
-@media screen and (min-width: 240px) and (max-width: 479px) {
+@media screen and (min-width: 310px) and (max-width: 594px) {
   .navigationLink {
     font-family: 'Fira Sans', sans-serif;
     font-size: 30px;
