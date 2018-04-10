@@ -101,6 +101,11 @@
     color: white;
   }
 
+  .navigationLink:hover {
+    text-decoration: none;
+    color: #CCCCCC;
+  }
+
   .menuButton {
     border-bottom: 3px solid white;
   }
@@ -155,6 +160,10 @@
 
   .ctaButton {
     margin: 12.5px;
+  }
+
+  .ctaButton:hover {
+    filter: brightness(50%);
   }
 
   #ctaButtons {
