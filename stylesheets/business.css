@@ -141,7 +141,7 @@
   }
 }
 
-@media screen and (min-width: 310px) and (max-width: 594px) {
+@media screen and (min-width: 240px) and (max-width: 594px) {
   .subtitleText {
     padding-bottom: 0px;
     margin-bottom: 0px;
