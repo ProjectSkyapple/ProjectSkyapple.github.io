@@ -1,6 +1,6 @@
 @media screen and (min-width: 595px) {
   .navigationLink {
-    font-family: 'Fira Sans', sans-serif;
+    font-family: "Fira Sans", sans-serif;
     font-size: 30px;
     font-weight: 700;
     color: white;
@@ -8,7 +8,7 @@
 
   .navigationLink:hover {
     text-decoration: none;
-    color: #CCCCCC;
+    color: #cccccc;
   }
 
   .menuButton {
@@ -26,14 +26,14 @@
   }
 
   #coverTitle {
-    font-family: 'Fira Sans', sans-serif;
+    font-family: "Fira Sans", sans-serif;
     font-size: 72px;
     font-weight: 700;
     color: white;
   }
 
   #coverDescription {
-    font-family: 'Fira Sans', sans-serif;
+    font-family: "Fira Sans", sans-serif;
     font-size: 30px;
     font-weight: 300;
     color: white;
@@ -46,11 +46,11 @@
   }
 
   #coverSection {
-    background: linear-gradient(to bottom right, #000080, #00BFFF);
+    background: linear-gradient(to bottom right, #000080, #00bfff);
   }
 
   #ctaTitle {
-    font-family: 'Fira Sans', sans-serif;
+    font-family: "Fira Sans", sans-serif;
     font-size: 72px;
     font-weight: 700;
     color: black;
@@ -76,11 +76,11 @@
   }
 
   #ctaSection {
-    background-color: #EEEEEE;
+    background-color: #eeeeee;
   }
 
   .copyrightMark {
-    font-family: 'Fira Sans', sans-serif;
+    font-family: "Fira Sans", sans-serif;
     font-size: 15px;
     font-weight: 300;
     color: black;
@@ -88,14 +88,14 @@
   }
 
   #copyrightSection {
-    background-color: #EEEEEE;
+    background-color: #eeeeee;
     padding-bottom: 50px;
   }
 }
 
 @media screen and (min-width: 240px) and (max-width: 594px) {
   .navigationLink {
-    font-family: 'Fira Sans', sans-serif;
+    font-family: "Fira Sans", sans-serif;
     font-size: 30px;
     font-weight: 700;
     color: white;
@@ -103,7 +103,7 @@
 
   .navigationLink:hover {
     text-decoration: none;
-    color: #CCCCCC;
+    color: #cccccc;
   }
 
   .menuButton {
@@ -129,14 +129,14 @@
   }
 
   #coverTitle {
-    font-family: 'Fira Sans', sans-serif;
+    font-family: "Fira Sans", sans-serif;
     font-size: 36px;
     font-weight: 700;
     color: white;
   }
 
   #coverDescription {
-    font-family: 'Fira Sans', sans-serif;
+    font-family: "Fira Sans", sans-serif;
     font-size: 15px;
     font-weight: 300;
     color: white;
@@ -148,11 +148,11 @@
   }
 
   #coverSection {
-    background: linear-gradient(to bottom right, #000080, #00BFFF);
+    background: linear-gradient(to bottom right, #000080, #00bfff);
   }
 
   #ctaTitle {
-    font-family: 'Fira Sans', sans-serif;
+    font-family: "Fira Sans", sans-serif;
     font-size: 36px;
     font-weight: 700;
     color: black;
@@ -178,11 +178,11 @@
   }
 
   #ctaSection {
-    background-color: #EEEEEE;
+    background-color: #eeeeee;
   }
 
   .copyrightMark {
-    font-family: 'Fira Sans', sans-serif;
+    font-family: "Fira Sans", sans-serif;
     font-size: 15px;
     font-weight: 300;
     color: black;
@@ -190,7 +190,7 @@
   }
 
   #copyrightSection {
-    background-color: #EEEEEE;
+    background-color: #eeeeee;
     padding-bottom: 25px;
   }
 }
