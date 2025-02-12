@@ -1,6 +1,7 @@
 @media screen and (min-width: 595px) {
-  .navigationLink, .subtitleText {
-    font-family: 'Fira Sans', sans-serif;
+  .navigationLink,
+  .subtitleText {
+    font-family: "Fira Sans", sans-serif;
     font-size: 30px;
     font-weight: 700;
     color: black;
@@ -12,7 +13,7 @@
   }
 
   .navigationLink:hover {
-    color: #CCCCCC;
+    color: #cccccc;
   }
 
   .menuButton {
@@ -30,15 +31,15 @@
   }
 
   .sectionTitle {
-    font-family: 'Fira Sans', sans-serif;
+    font-family: "Fira Sans", sans-serif;
     font-size: 72px;
     font-weight: 700;
     color: black;
     max-width: 768px;
   }
 
-  #referencesList {
-    font-family: 'Fira Sans', sans-serif;
+  .referencesList {
+    font-family: "Fira Sans", sans-serif;
     font-size: 30px;
     font-weight: 300;
     color: black;
@@ -47,10 +48,11 @@
   .referencesContent {
     padding-top: 50px;
     padding-bottom: 50px;
+    overflow-wrap: break-word;
   }
 
   .webpageSection {
-    background-color: #EEEEEE;
+    background-color: #eeeeee;
   }
 
   .documentationButton {
@@ -68,7 +70,7 @@
   }
 
   #copyrightMark {
-    font-family: 'Fira Sans', sans-serif;
+    font-family: "Fira Sans", sans-serif;
     font-size: 15px;
     font-weight: 300;
     color: black;
@@ -76,14 +78,14 @@
   }
 
   #copyrightSection {
-    background-color: #EEEEEE;
+    background-color: #eeeeee;
     padding-bottom: 50px;
   }
 }
 
 @media screen and (min-width: 240px) and (max-width: 594px) {
   .subtitleText {
-    font-family: 'Fira Sans', sans-serif;
+    font-family: "Fira Sans", sans-serif;
     font-size: 15px;
     font-weight: 700;
     color: black;
@@ -92,14 +94,14 @@
   }
 
   .navigationLink {
-    font-family: 'Fira Sans', sans-serif;
+    font-family: "Fira Sans", sans-serif;
     font-size: 30px;
     font-weight: 700;
     color: black;
   }
 
   .navigationLink:hover {
-    color: #CCCCCC;
+    color: #cccccc;
   }
 
   .menuButton {
@@ -121,15 +123,15 @@
   }
 
   .sectionTitle {
-    font-family: 'Fira Sans', sans-serif;
+    font-family: "Fira Sans", sans-serif;
     font-size: 36px;
     font-weight: 700;
     color: black;
     max-width: 768px;
   }
 
-  #referencesList {
-    font-family: 'Fira Sans', sans-serif;
+  .referencesList {
+    font-family: "Fira Sans", sans-serif;
     font-size: 15px;
     font-weight: 300;
     color: black;
@@ -138,10 +140,11 @@
   .referencesContent {
     padding-top: 25px;
     padding-bottom: 25px;
+    overflow-wrap: break-word;
   }
 
   .webpageSection {
-    background-color: #EEEEEE;
+    background-color: #eeeeee;
   }
 
   .documentationButton {
@@ -159,7 +162,7 @@
   }
 
   #copyrightMark {
-    font-family: 'Fira Sans', sans-serif;
+    font-family: "Fira Sans", sans-serif;
     font-size: 15px;
     font-weight: 300;
     color: black;
@@ -167,7 +170,7 @@
   }
 
   #copyrightSection {
-    background-color: #EEEEEE;
+    background-color: #eeeeee;
     padding-bottom: 25px;
   }
 }
