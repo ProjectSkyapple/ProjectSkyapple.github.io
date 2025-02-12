@@ -21,4 +21,4 @@ Project Skyapple is a solution to the 2017-2018 TSA Website Design competition c
 
 - Team Finalist, Website Design competitive event, 2018 Texas TSA State Conference
 
-_More documentation is available on Project Skyapple's [References and Documentation](https://projectskyapple.github.io/references.html) page._
+_More documentation such as our plan of work is available on Project Skyapple's [References and Documentation](https://projectskyapple.github.io/references.html) page._
